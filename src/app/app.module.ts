@@ -14,6 +14,7 @@ import {PessoasPesquisaComponent} from './pessoas-pesquisa/pessoas-pesquisa.comp
 import {LancamentoCadastroComponent} from './lancamento-cadastro/lancamento-cadastro.component';
 import {InputTextareaModule} from 'primeng/inputtextarea';
 import {CalendarModule} from 'primeng/calendar';
+import {SelectButtonModule} from 'primeng/selectbutton';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import {CalendarModule} from 'primeng/calendar';
     ButtonModule,
     TableModule,
     TooltipModule,
-    CalendarModule
+    CalendarModule,
+    SelectButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
