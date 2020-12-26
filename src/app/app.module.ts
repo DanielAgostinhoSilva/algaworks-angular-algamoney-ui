@@ -13,6 +13,7 @@ import {NavbarComponent} from './navbar/navbar.component';
 import {PessoasPesquisaComponent} from './pessoas-pesquisa/pessoas-pesquisa.component';
 import {LancamentoCadastroComponent} from './lancamento-cadastro/lancamento-cadastro.component';
 import {InputTextareaModule} from 'primeng/inputtextarea';
+import {CalendarModule} from 'primeng/calendar';
 
 @NgModule({
   declarations: [
@@ -24,11 +25,13 @@ import {InputTextareaModule} from 'primeng/inputtextarea';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     InputTextModule,
     InputTextareaModule,
     ButtonModule,
     TableModule,
-    TooltipModule
+    TooltipModule,
+    CalendarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
